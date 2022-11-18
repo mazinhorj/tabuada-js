@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuadas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>gerador de tabuadas digital</h1>
+    </header>
+    <main>
+        <form id="multiplication-form">
+            <div class="form-control">
+                <label for="number">Tabuada do:</label>
+                <input type="number" name="number" id="number" placeholder="5">
+            </div>
+            <div class="form-control">
+                <label for="multiplicator">Multiplicar até:</label>
+                <input type="number" name="multiplicator" id="multiplicator" value="10">
+            </div>
+            <input type="submit" value="Calcular">
+        </form>
+        <div id="multiplication-table">
+            <h2 id="multiplication-title">Tabuada do <span></span></h2>
+            <div id="multiplication-operations">
+                <p>Informe um número para calcular a tabuada.</p>
+                <div class="row">
+                    <div class="operation"></div>
+                    <div class="result"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
